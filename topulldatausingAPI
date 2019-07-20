@@ -11,3 +11,7 @@ gbp_rate = parsed["rates"]["GBP"]
 usd_rate = parsed["rates"]["USD"]
 print("On " + date + " EUR equals " + str(gbp_rate) + " GBP")
 print("On " + date + " EUR equals " + str(usd_rate) + " USD")
+
+
+##//https://code.tutsplus.com/articles/how-to-use-restful-web-apis-in-python--cms-29493
+##//https://www.sitepoint.com/how-to-create-a-twitter-app-and-api-interface-via-python/
