@@ -15,3 +15,5 @@ print("On " + date + " EUR equals " + str(usd_rate) + " USD")
 
 ##//https://code.tutsplus.com/articles/how-to-use-restful-web-apis-in-python--cms-29493
 ##//https://www.sitepoint.com/how-to-create-a-twitter-app-and-api-interface-via-python/
+##df=pd.read_json("temp.json") // json to csv
+##https://stackoverflow.com/questions/18116985/how-to-loop-through-api-call-with-requests-in-python
