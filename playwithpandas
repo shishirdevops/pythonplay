@@ -1,0 +1,17 @@
+>>> import json
+
+# first line of code: import the pandas module
+>>> import pandas
+
+# generate a python dict list
+>>> data= [{'name':'a', 'value':1}, {'name':'b', 'value':2}]
+
+# second line of code: convert the dict list to csv and save it into the file pandas.csv
+>>> pandas.read_json(json.dumps(data)).to_csv('pandas.csv')
+
+# verify the csv file content
+>>> with open('pandas.csv') as f:
+...     print(f.read())
+,name,value
+0,a,1
+1,b,2
